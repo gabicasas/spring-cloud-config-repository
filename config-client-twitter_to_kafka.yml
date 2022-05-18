@@ -5,7 +5,11 @@ twitter-to-kafka-service:
   enable-mock-tweets: true
   twitter-keywords:
     - Sri Lanka
+    - Abu Dabi
   welcome-message: Hello Twitter4j
+  mock-sleep-ms: 1000
+  mock-min-tweet-length: 75
+  mock-max-tweet-length: 150
 
 retry-config:
   initial-interval-ms: 1000
