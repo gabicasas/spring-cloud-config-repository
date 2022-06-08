@@ -1,6 +1,16 @@
 server:
   port: 9197
 
+twitter-to-kafka-service:
+  enable-mock-tweets: true
+  twitter-keywords:
+    - Sri Lanka
+    - Abu Dabi
+  welcome-message: Hello Twitter4j
+  mock-sleep-ms: 1000
+  mock-min-tweet-length: 75
+  mock-max-tweet-length: 150
+
 kafka-config:
   bootstrap-servers: localhost:19092, localhost:29092, localhost:39092
   schema-registry-url-key: schema.registry.url
